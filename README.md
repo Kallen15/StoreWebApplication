@@ -24,9 +24,7 @@ Todo Features:
 * Display order history of a store
 * Display a user's order history
 ## Getting Started
-(git clone)
+git clone https://github.com/Kallen15/StoreWebApplication.git
 
 ## Usage
 Open project P1_KemoAllen in Visual Studio. 
-
-## Licence
