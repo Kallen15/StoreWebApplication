@@ -12,6 +12,7 @@ using RepositoryLayer;
 using BusinessLayer;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 
 namespace P1_KemoAllen
 {
@@ -39,6 +40,9 @@ namespace P1_KemoAllen
             //});
             ////Doesn't load automatically
             //services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddDbContext<Store_DbContext>(opt =>
+                                               opt.UseInMemoryDatabase("TodoList"));
 
             services.AddControllersWithViews();
             services.AddScoped<StoreBusinessClass>();

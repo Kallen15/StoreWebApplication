@@ -23,8 +23,8 @@ namespace RepositoryLayer
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=tcp:kemoazserver.database.windows.net,1433;Initial Catalog=p0_mysql;Persist Security Info=False;"
-                + "User ID=kemoallen;Password=Sholos_03;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                //optionsBuilder.UseSqlServer("Server=tcp:kemoazserver.database.windows.net,1433;Initial Catalog=p0_mysql;Persist Security Info=False;"
+                //+ "User ID=kemoallen;Password=Sholos_03;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
     }
