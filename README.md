@@ -28,3 +28,9 @@ git clone https://github.com/Kallen15/StoreWebApplication.git
 
 ## Usage
 Open project P1_KemoAllen in Visual Studio. 
+Run the program. A webpage will open in your browser. (I'm using Firefox).
+There are options to Login or Register a user.
+Select Register. Here you will enter some user information then submit.
+On the user page there are three options at the bottom.
+The one that is working is "Make an Order HERE!".
+After selecting "Make an Order HERE!", you can enter information about your order. However this is as far as the program goes.
